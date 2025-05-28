@@ -1,0 +1,163 @@
+.arrival__inner {
+    margin-top: 70px;
+}
+
+.arrival__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #000;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.arrival__list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    // padding: 0 20px;
+    gap: 40px;
+    justify-content: flex-start;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+.arrival__list::-webkit-scrollbar {
+    display: none;
+}
+
+.arrival__peice {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.arrival__peice span:nth-child(1) {
+    color: #00000066;
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+
+
+.arrival__img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.arrival__subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #000;
+    margin-top: 16px;
+}
+
+.arrival__title {
+    margin-top: 30px;
+}
+
+.arrival__ball {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.arrival__ball-img {}
+
+.arrival__ball-span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.arrival__peice {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #000;
+}
+
+.arrival__all-btn {
+    border: 1px solid #0000001A;
+    padding: 15px 0;
+    width: 218px;
+    border-radius: 62px;
+    color: #000;
+    background-color: transparent;
+    // cursor: pointer;
+}
+
+.arrival__all-btn-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.arrival__item {
+    flex: 0 0 auto;
+    margin-bottom: 20px;
+}
+
+.all {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: hidden;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+// .price__prise {
+//     color: #FF3333;
+//     padding-left: 10px;
+//     font-size: 12px;
+//     font-weight: 500;
+//     background-color: #FF33331A;
+//     padding: 6px 13px;
+//     border-radius: 62px;
+// }
+
+@media (max-width: 768px) {
+    .arrival__inner {
+        margin-top: 50px;
+    }
+
+    .arrival__title {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .arrival__img {
+        height: 150px;
+        width: 145px;
+    }
+
+    .arrival__item {
+        width: 145px;
+        flex: 0 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .all {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 16px;
+        gap: 16px;
+    }
+
+    .arrival__subtitle {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .arrival__peice {
+        font-size: 20px;
+    }
+}

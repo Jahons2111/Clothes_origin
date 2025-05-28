@@ -1,0 +1,137 @@
+
+
+
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.header__logo-link {}
+
+.header__logo {}
+
+.header__list {
+    display: flex;
+    gap: 24px;
+}
+
+.heder__item {}
+
+.header__link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000;
+}
+
+.header__search-div {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        background-image: url("/image/search-icon.svg");
+        width: 24px;
+        height: 24px;
+        top: 10px;
+        left: 10px;
+    }
+}
+
+.header__search {
+    width: 577px;
+    padding: 12px 0 14px 52px;
+    border-radius: 20px;
+    background-color: #F0F0F0;
+    border: none;
+}
+
+.header__icon-list {
+    display: flex;
+    gap: 14px;
+}
+
+.header__icon-item {}
+
+.header__icon {}
+
+.header__burger-btn {
+    border: none;
+    background-color: transparent;
+    display: none;
+}
+
+.header__icon-item--active {
+    display: none;
+}
+
+.header__burger-icon {
+    width: 24px;
+    height: 24px;
+}
+.header__burger {
+    position: absolute;
+    display: none;
+    left: 10px;
+    top: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #0000001A;
+}
+.block {
+    display: block;
+}
+.heder__item {
+    padding: 20px 10px;
+    text-align: left;
+}
+@media (max-width:1250px) {
+    .header__search {
+        width: 100%;
+    }
+}
+
+@media (max-width:800px) {
+    .header__inner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__list {
+        display: none;
+    }
+
+    .header__search-div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width:600px) {
+    .header__inner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__icon-list {
+        margin-left: auto;
+    }
+
+    .header__search-div {
+        display: none;
+    }
+
+    .header__icon-item--active {
+        display: block;
+    }
+    .header__logo {
+        width: 126px;
+        height: 18px;
+        object-fit: contain;
+    }
+    .header__burger-btn {
+        display: block;
+    }
+}

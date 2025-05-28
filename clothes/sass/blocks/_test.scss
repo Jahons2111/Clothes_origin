@@ -1,0 +1,72 @@
+.testimonials-section {
+  font-family: 'Satoshi', Arial, sans-serif;
+  
+  margin: 50px 0;
+}
+.testimonials-title {
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 24px;
+  font-family: 'Satoshi', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.testimonials-slider {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+.slider-btn {
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 0 12px;
+}
+
+.testimonials-title-and-btn{
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  justify-content: space-between;
+  
+
+}
+
+.testimonials-cards {
+  display: flex;
+  gap: 18px;
+  overflow: hidden;
+  width: 100%;
+  background-color: #F0F0F0;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  border-radius: 20px;
+}
+.testimonial-card {
+  background: #fff;
+  border-radius: 16px;
+padding: 16px 24px;
+  min-width: 260px;
+  max-width: 320px;
+  flex: 0 0 320px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  border-radius: 5px;
+}
+.testimonial-stars {
+  color: #FFD700;
+  margin-bottom: 8px;
+}
+.testimonial-name {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.testimonial-text {
+  font-size: 15px;
+  color: #444;
+  
+}
